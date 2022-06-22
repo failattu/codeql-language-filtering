@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        languages: ['java', 'cpp']
+        language: ['java', 'cpp']
 
     permissions:
       # required for all workflows
